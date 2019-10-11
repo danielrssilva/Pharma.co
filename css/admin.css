@@ -1,0 +1,25 @@
+body{
+    background: url(../imgs/dna-bg.png) no-repeat;
+    background-size: cover;
+}
+.overlay{
+    background: linear-gradient(-45deg,rgba(247, 44, 37, 0.78), rgba(39, 110, 191, 0.78));
+    height: 100vh;
+}
+.table{
+    color: var(--secondary);
+    width: 100%;
+    background: url(../imgs/logo.png) no-repeat fixed center;
+}
+.table .table-header{
+    background: white;
+}
+.table .table-cell{
+    border: none !important;
+    background: rgba(246, 244, 243, 0.27);
+    color: white;
+}
+.admin-container{
+    background: none;
+    border-radius: 0;
+}
